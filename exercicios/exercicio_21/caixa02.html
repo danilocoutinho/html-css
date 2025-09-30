@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            background-color: rgb(75, 75, 75);
+
+        }
+
+        header {
+            background-color: blue;
+            padding: 1px;
+        }
+
+        header > h1 {
+            color: white;
+            margin-left: 25px;
+        }
+
+        nav {
+            box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.451);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            margin: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.315);
+            border-radius: 10px 40px ;
+        }
+        
+        h2 {
+            padding-left: 10px;
+        }
+
+        p {
+            padding-left: 10px;
+        }
+
+        section {
+            background-color: rgb(202, 202, 202);
+            margin: 20px;
+        }
+
+        aside {
+            background-color: aqua;
+        }
+
+        footer {
+            background-color: blue;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+            <a href="https://web.whatsapp.com/" target="_blank">Whatsapp</a>
+            <a href="https://pt-br.facebook.com/">Facebook</a>
+            <a href="https://www.instagram.com/">Instagram</a>
+            <a href="https://www.linkedin.com/">Linkedin</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, debitis vel! Omnis blanditiis, itaque obcaecati non, nesciunt possimus eveniet provident, incidunt labore ipsam recusandae! Voluptate quo aliquam ipsa sapiente tempora. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius molestias dolore temporibus beatae natus id necessitatibus debitis magnam obcaecati at, iusto commodi. Cupiditate, consequuntur adipisci illo ad nesciunt aspernatur repudiandae.</p>
+                <aside>
+                    <p>Escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o pará</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit nostrum ullam est minus voluptatibus sint amet tenetur, magnam temporibus excepturi repellendus placeat! Ad ullam quos minus inventore commodi placeat facere!</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido pelo Danilo Coutinho
+    </footer>
+</body>
+</html>
